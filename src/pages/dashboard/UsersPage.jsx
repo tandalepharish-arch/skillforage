@@ -1,17 +1,5 @@
 import { useState, useEffect } from 'react';
-import { 
-  Users, 
-  Search, 
-  Filter, 
-  Plus, 
-  Edit3, 
-  Trash2, 
-  Eye,
-  UserCheck,
-  UserX,
-  AlertCircle,
-  CheckCircle
-} from 'lucide-react';
+import { Users, Search, Filter, Plus, CreditCard as Edit3, Trash2, Eye, UserCheck, UserX, AlertCircle, CheckCircle } from 'lucide-react';
 import { usersAPI } from '../../services/api';
 
 const UsersPage = () => {
