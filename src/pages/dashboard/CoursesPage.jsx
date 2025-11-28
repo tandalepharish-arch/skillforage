@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import { api } from '../../services/api';
+import api from '../../services/api';
 import { BookOpen, Plus, CreditCard as Edit, Trash2, Users, Clock } from 'lucide-react';
 
 const CoursesPage = () => {
