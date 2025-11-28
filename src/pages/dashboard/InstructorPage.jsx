@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import api from '../../services/api';
+import { api } from '../../services/api';
 import { BookOpen, Users, PlusCircle, CreditCard as Edit, Trash2, Eye, BarChart3, Clock, Award } from 'lucide-react';
 
 const InstructorPage = () => {
