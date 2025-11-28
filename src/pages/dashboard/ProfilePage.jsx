@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import api from '../../services/api';
+import { api } from '../../services/api';
 import { User, Mail, Phone, MapPin, Calendar, CreditCard as Edit, Save, X } from 'lucide-react';
 
 const ProfilePage = () => {

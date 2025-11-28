@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import api from '../../services/api';
+import { api } from '../../services/api';
 import { BarChart3, TrendingUp, Users, BookOpen, Award, Activity } from 'lucide-react';
 
 const AnalyticsPage = () => {
